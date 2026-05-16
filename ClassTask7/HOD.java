@@ -10,13 +10,11 @@ public class HOD extends Teacher {
     }
 
     public void manageDepartment() {
-        // 'name' variable Teacher class mein 'protected' ya 'public' hona chahiye
         System.out.println("HOD " + name + " is managing the " + department);
     }
 
     @Override
-    public void displayInfo() {
-        // Teacher class ka info print karne ke liye sahi method call karein
+    public void displayInfo() {   
         super.displayInfo(); 
         System.out.println("Department: " + department);
     }
